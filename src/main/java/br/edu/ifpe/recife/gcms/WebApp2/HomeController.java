@@ -9,7 +9,7 @@ public class HomeController {
  
   @RequestMapping("/") 
   public @ResponseBody String greeting() { 
-    return "Hello, Gradle"; 
+    return "Hello, World"; 
   } 
   
   @RequestMapping("/fulano") 
