@@ -20,6 +20,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: docker://ramideifpe/gcms-2023-2:gcms-teste
 
     steps:
     - uses: actions/checkout@v3
